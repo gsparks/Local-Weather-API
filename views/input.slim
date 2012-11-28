@@ -1,6 +1,12 @@
-h2 Client Request :
-= @request
+h2 Weather Conditions for: 
+= "#{@position[0]}, #{@position[1]}"
 h2 Specified Server ?
 = @server
 h2 Server Output :
-= @output
+= "Temperature: #{@temp}"
+br
+br
+= "Wind Speed: #{@windspeed}"
+br
+br
+= "Wind Direction: #{@winddirection}"
