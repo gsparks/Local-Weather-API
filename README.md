@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+============
 wwxtp-server
 ============
 
@@ -23,4 +22,3 @@ Here are the steps for using the server side socket API in C
 7. close() "close() closes the connection, usually listen is called after close()"
 
 We are calling each socket API function with the preprocessor macro check() which takes in a function and parameters and applies the function to the supplied parameters. It automatically checks for errors and if errors arise, it prints to stderr.
->>>>>>> 728d49efa6826ac1ff9ec42b6b2e1e152c693cc5
